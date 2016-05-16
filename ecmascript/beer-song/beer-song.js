@@ -24,7 +24,7 @@ function secondLine(num) {
 }
 
 function verse(num) {
-  return [firstLine(num), secondLine(num - 1)].join("\n") + "\n"
+  return `${firstLine(num)}\n${secondLine(num - 1)}\n`
 }
 
 // If to is not given, sing to the end. If neither is given, sing the whole song.
